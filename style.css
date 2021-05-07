@@ -1,0 +1,326 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #F2F4F5;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+
+    border-bottom: inset;
+}
+
+nav h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px
+}
+
+header {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #6F9CEB;
+    padding-bottom: 20px;
+}
+
+.linkTopo {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 15pt;
+    transition: 0.2s;
+}
+
+.linkTopo:hover {
+    color: rgb(190, 202, 202);
+}
+
+#containerPerfil {
+    position: inherit;
+    display: flex;
+    height: 600px;
+}
+
+#perfil {
+    text-align: center;
+    background-color: #6F9CEB;
+    width: 280px;
+    height: 600px;
+}
+
+#perfil h3 {font-family: 'Merriweather', serif;}
+
+#perfil p {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+#perfil > img {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    border-radius: 50%;
+}
+
+#redesSociais > a > img {
+    width: 30px;
+    height: 30px;
+    margin: 35px 10px 10px 10px;
+}
+
+#imgPerfil {
+    width: 100vh;
+    height: 600px;
+    flex-grow: 1;
+    position: relative;
+    background-color: #6F9CEB;
+}
+
+#imgPerfilBackground {
+    background-image: url(img/imgPerfil.jpg);
+    width: 100%;
+    height: 600px;
+    filter: brightness(80%) opacity(60%);
+
+    background-attachment: fixed;
+    background-position: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgPerfilText {
+    position: absolute;
+    top: 320px;
+    left: 280px;
+    color: whitesmoke;
+}
+
+#imgPerfilText h2 {
+    font-size: 420%;
+    font-family: 'Merriweather', serif;
+}
+
+#span1ImgPerfilText {font-size: 250%;}
+
+#span2ImgPerfilText {font-size: 150%;}
+
+#apresentacao {
+    background-color: rgb(220, 229, 233);
+    height: 450px;
+}
+
+#apresentacao h4 {
+    color: #306BAC;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 90px 0px 0px 200px;
+}
+
+#apresentacao h5 {
+    color: #306BAC;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 10px 0px 0px 200px;
+}
+
+#apresentacao p {
+    color: rgba(56, 56, 56, 0.90);
+    font-size: 22px;
+    word-wrap: 4px;
+    line-height: 40px;
+
+    padding: 30px 0px 0px 200px;
+    width: 850px;
+}
+
+#formacao {
+    background-color: #F2F4F5;
+    height: 550px;
+}
+
+#formacao h4 {
+    color: #306BAC;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 80px 0px 0px 200px;
+}
+
+#formacao h5 {
+    color: #306BAC;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 10px 0px 0px 200px;
+}
+
+#formacao p {
+    color: rgba(56, 56, 56, 0.90);
+    font-size: 20px;
+    line-height: 40px;
+
+    padding-top: 5px;
+    margin-left: 200px;
+    width: 850px;
+}
+
+#formacao h6 {
+    color: rgba(56, 56, 56, 0.90);
+    font-size: 20px;
+    padding-top: 65px;
+    margin-left: 200px;
+}
+
+#experiencia {
+    background-color: rgb(220, 229, 233);
+    height: 600px;
+}
+
+#experiencia h4 {
+    color: #306BAC;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 80px 0px 0px 200px;
+}
+
+#experiencia h5 {
+    color: #306BAC;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 10px 0px 0px 200px;
+}
+
+#experiencia p {
+    color: rgba(56, 56, 56, 0.90);
+    font-size: 20px;
+    line-height: 40px;
+
+    padding-top: 5px;
+    margin-left: 200px;
+    width: 850px;
+}
+
+#experiencia h6 {
+    color: rgba(56, 56, 56, 0.90);
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+#competencias {
+    background-color: #F2F4F5;
+    height: 680px;
+}
+
+#competencias h4 {
+    color: #306BAC;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 70px 0px 0px 200px;
+}
+
+#competencias h5 {
+    color: #306BAC;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+
+    padding: 10px 0px 0px 200px;
+}
+
+#competencias table {
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#competencias td, th {
+    color: rgba(56, 56, 56, 0.90);
+    border: 1.5px solid #ddd;
+    
+    font-size: 20px;
+    padding: 15px;
+}
+
+#competencias th {
+    background-color: #98B9F2;
+    color: whitesmoke;
+    text-align: left;
+}
+
+#competencias tr:nth-child(even) {background-color: rgb(220, 229, 233);}
+
+.tdCentralizar {text-align: center;}
+
+footer {
+    background-color: #141B41;
+    height: 150px;
+    display: flex;
+}
+
+#agradecimentos {
+    text-align: center;
+    flex-grow: 1;
+    padding-right: 300px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+#agradecimentos span {
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+#redesSociaisFooter > a > img {
+    width: 25px;
+    height: 25px;
+    margin: 15px 10px 10px 10px;
+}
+
+#creditos {
+    padding-top: 30px;
+    padding-left: 300px;
+    width: 230px;
+    font-size: 13px;
+    flex-grow: 1;
+}
+
+#creditos hr {
+    border-top: 0px;
+    margin: 15px 0px 10px;
+}
